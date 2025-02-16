@@ -1,9 +1,10 @@
 import React from 'react'
+import { SideBar } from './components'
 
 const App = () => {
   return (
     <div className='bg-primary w-full overflow-hidden'>
-        <h1 className="text-dimWhite font-semibold text-[52px]">AI Assistant</h1>
+        <SideBar />
     </div>
   )
 }
